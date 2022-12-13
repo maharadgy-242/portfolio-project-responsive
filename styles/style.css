@@ -1,0 +1,14 @@
+/* font-family: "Playfair Display", serif;
+font-family: "PT Mono", monospace;
+font-family: "Raleway", sans-serif; */
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+}
