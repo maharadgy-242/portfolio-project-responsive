@@ -1,14 +1,66 @@
 /* font-family: "Playfair Display", serif;
 font-family: "PT Mono", monospace;
 font-family: "Raleway", sans-serif; */
+:root {
+  --main-bg-color: #fefaf7;
+  --button-color: #fa740e;
+  --heading-h4-color: #272142;
+  --heading-font-family-h1: "Playfair Display", serif;
+  --default-font-family: "Raleway", sans-serif;
+}
+
+body {
+  margin-top: 100px;
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family-h1);
+  font-weight: bolder;
+}
 
 h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: bolder;
-  font-size: 48px;
+  font-size: 96px;
 }
 
 p {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--default-font-family);
   font-size: 18px;
+}
+
+.introducing {
+  background: var(--main-bg-color);
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 160px 0 200px 0;
+}
+
+.introducing p {
+  font-weight: bolder;
+  font-size: 36px;
+  margin-bottom: -16px;
+  color: var(--heading-h4-color);
+}
+
+.introducing h4 {
+  font-family: var(--default-font-family);
+  line-height: 2;
+  font-size: 24px;
+  color: var(--heading-h4-color);
+}
+
+.btn-branding {
+  border-radius: 5px;
+  background: var(--button-color);
+  color: white;
+  padding: 14px 26px;
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: normal;
 }
