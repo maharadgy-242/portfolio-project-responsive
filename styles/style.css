@@ -63,18 +63,18 @@ p {
   background: var(--main-bg-color);
 }
 
-.about-section {
+.content {
   padding-left: 100px;
   padding-right: 50px;
   /* background: rgb(221, 221, 221); */
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 1.1;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 24px;
   font-family: var(--default-font-family);
   color: #3a3a3a;
@@ -164,11 +164,11 @@ p {
     padding: 80px 0 80px 0;
   }
 
-  .about-section {
+  .content {
     text-align: center;
   }
 
-  .about-section h1 {
+  .content h1 {
     font-size: 50px;
   }
 
