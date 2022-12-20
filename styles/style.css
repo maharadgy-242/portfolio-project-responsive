@@ -44,6 +44,11 @@ p {
   line-height: 30px;
 }
 
+hr {
+  width: 166px;
+  color: #b66121;
+}
+
 .introducing {
   background: var(--main-bg-color);
   text-align: center;
@@ -78,6 +83,13 @@ p {
   font-size: 24px;
   font-family: var(--default-font-family);
   color: #3a3a3a;
+}
+
+.content h3 {
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: var(--heading-font-family-h1);
+  color: var(--heading-h4-color);
 }
 
 .btn-branding {
@@ -142,6 +154,18 @@ p {
 
 .my-photo {
   margin-left: 50px;
+}
+
+.contact-link {
+  font-size: 14px;
+  color: #c9661a;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: #552411;
+  text-decoration: underline;
+  transition: 0.35s;
 }
 
 #main-p {
