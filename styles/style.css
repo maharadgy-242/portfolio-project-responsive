@@ -170,6 +170,10 @@ hr {
   background: var(--main-bg-color);
 }
 
+.projects {
+  background: green;
+}
+
 .my-photo {
   margin-left: 50px;
 }
