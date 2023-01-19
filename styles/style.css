@@ -11,6 +11,24 @@ body {
   font-family: var(--default-font-family);
 }
 
+.page-style {
+  background: linear-gradient(
+      45deg,
+      rgba(102, 62, 37, 0) 48%,
+      rgba(102, 62, 37, 0.2) 50%,
+      rgba(102, 62, 37, 0) 52%
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(102, 62, 37, 0) 48%,
+      rgba(102, 62, 37, 0.2) 50%,
+      rgba(102, 62, 37, 0) 52%
+    );
+  /* rgba(121, 59, 20, 0) 52% */
+  background-size: 1em 1em;
+  background-color: #fff;
+}
+
 h1,
 h2,
 h3,
