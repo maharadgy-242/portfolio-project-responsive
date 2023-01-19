@@ -172,6 +172,7 @@ hr {
   font-size: 18px;
   color: var(--heading-h4-color);
   padding-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 900px) {
