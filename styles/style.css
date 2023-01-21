@@ -9,24 +9,25 @@
 
 body {
   font-family: var(--default-font-family);
+  color: grey;
 }
 
 .page-style {
   background: linear-gradient(
       45deg,
-      rgba(102, 62, 37, 0) 48%,
-      rgba(102, 62, 37, 0.2) 50%,
-      rgba(102, 62, 37, 0) 52%
+      rgba(131, 76, 43, 0) 48%,
+      rgba(131, 76, 43, 0.2) 50%,
+      rgba(131, 76, 43, 0) 52%
     ),
     linear-gradient(
       -45deg,
-      rgba(102, 62, 37, 0) 48%,
-      rgba(102, 62, 37, 0.2) 50%,
-      rgba(102, 62, 37, 0) 52%
+      rgba(131, 76, 43, 0) 48%,
+      rgba(131, 76, 43, 0.2) 50%,
+      rgba(131, 76, 43, 0) 52%
     );
   /* rgba(121, 59, 20, 0) 52% */
   background-size: 1em 1em;
-  background-color: #fff;
+  background-color: rgb(236, 235, 233);
 }
 
 h1,
