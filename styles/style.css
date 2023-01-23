@@ -41,6 +41,7 @@ body {
 
 .navbar {
   background-color: #fffbf9;
+  margin-bottom: 40px;
 }
 
 li.nav-item a {
