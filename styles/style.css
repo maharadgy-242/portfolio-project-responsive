@@ -2,7 +2,7 @@
   --main-bg-color: #fdf5ef;
   --button-color: #fa740e;
   --heading-h4-color: #525153;
-  --previews-projetc-color: #6c63ff;
+  --heading-h1-color: rgb(28, 28, 85);
   --heading-font-family-h1: "Playfair Display", serif;
   --default-font-family: "Raleway", sans-serif;
 }
@@ -28,6 +28,28 @@ body {
   /* rgba(121, 59, 20, 0) 52% */
   background-size: 1em 1em;
   background-color: rgb(236, 235, 233);
+}
+
+.navbar-brand {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--heading-h1-color);
+  letter-spacing: -1.6px;
+  line-height: 1.7;
+}
+
+.navbar {
+  background-color: #fffbf9;
+}
+
+li.nav-item a {
+  color: var(--heading-h4-color);
+}
+
+li.nav-item a:hover {
+  text-decoration: underline;
+  color: var(--button-color);
 }
 
 h1,
@@ -83,14 +105,13 @@ hr {
 }
 
 .about {
-  padding: 160px 0 200px 0;
+  padding: 100px 0 140px 0;
   background: var(--main-bg-color);
 }
 
 .content {
   padding-left: 100px;
   padding-right: 50px;
-  /* background: rgb(221, 221, 221); */
 }
 
 .content h1 {
@@ -119,6 +140,11 @@ hr {
   font-size: 18px;
   font-family: var(--default-font-family);
   font-weight: normal;
+}
+
+.btn-branding:hover {
+  border: 2px solid var(--button-color);
+  transition: all 150ms easy-in-out;
 }
 
 .btn-leading-outline {
@@ -188,7 +214,7 @@ hr {
 .contact-link:hover {
   color: #552411;
   text-decoration: underline;
-  transition: 0.35s;
+  transition: 150ms;
 }
 
 #main-p {
@@ -206,6 +232,7 @@ hr {
 
   h2 {
     font-size: 36px;
+    margin-top: 20px;
   }
 
   .introducing {
@@ -222,7 +249,12 @@ hr {
 
   .about {
     padding: 20px 0;
-    margin: auto -20px auto -60px;
+    margin: auto -20px auto -40px;
+  }
+
+  hr {
+    display: block;
+    margin: 0 auto;
   }
 
   .my-photo {
@@ -246,6 +278,10 @@ hr {
   .second-project h2,
   .third-project h2 {
     text-align: center;
+  }
+
+  .heading-for-projects-page p {
+    margin: auto 20px;
   }
 
   #second-project {
