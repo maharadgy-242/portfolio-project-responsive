@@ -3,13 +3,13 @@
   --button-color: #fa740e;
   --heading-h4-color: #525153;
   --heading-h1-color: rgb(28, 28, 85);
+  --navbar-color: #c26845;
   --heading-font-family-h1: "Playfair Display", serif;
   --default-font-family: "Raleway", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
-  color: grey;
 }
 
 .page-style {
@@ -41,17 +41,22 @@ body {
 
 .navbar {
   background-color: #fcf1e8;
-  border: 3px solid #c26845;
+  border: 3px solid var(--navbar-color);
   margin-bottom: 40px;
 }
 
 li.nav-item a {
   color: var(--heading-h4-color);
+  margin-left: 28px;
 }
 
 li.nav-item a:hover {
   text-decoration: underline;
-  color: #ce5e09;
+  color: #fa6e03;
+}
+
+.active {
+  color: #ad522d !important;
 }
 
 h1,
@@ -114,6 +119,7 @@ hr {
 .content {
   padding-left: 100px;
   padding-right: 50px;
+  margin-bottom: -40px;
 }
 
 .content h1 {
@@ -217,14 +223,6 @@ hr {
   color: #552411;
   text-decoration: underline;
   transition: 150ms;
-}
-
-.active {
-  color: #ac5939 !important;
-}
-
-.navbar-toggler-icon {
-  color: blue !important;
 }
 
 #main-p {
