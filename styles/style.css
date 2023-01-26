@@ -229,6 +229,43 @@ hr {
   transition: 150ms;
 }
 
+footer {
+  background: var(--navbar-color);
+  margin-top: 60px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  background: linear-gradient(
+      45deg,
+      rgba(253, 249, 246, 0) 48%,
+      rgba(253, 249, 246, 0.2) 50%,
+      rgba(253, 249, 246, 0) 52%
+    ),
+    linear-gradient(
+      -45deg,
+      rgba(253, 249, 246, 0) 48%,
+      rgba(253, 249, 246, 0.2) 50%,
+      rgba(253, 249, 246, 0) 52%
+    );
+  background-size: 1em 1em;
+  background-color: #ad522d;
+}
+
+footer .social-links a {
+  font-size: 18px;
+  margin: 0 28px;
+  color: var(--heading-h4-color);
+  background-color: #fcece0;
+  padding: 8px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--button-color);
+  background: #fcdac4;
+}
+
 #main-p {
   font-size: 18px;
   color: var(--heading-h4-color);
