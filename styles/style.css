@@ -146,7 +146,6 @@ hr {
 
 .btn-branding-projcts {
   text-align: center;
-
   border: 3px solid var(--button-color);
   color: var(--heading-h4-color);
   border-radius: 10px;
@@ -382,6 +381,12 @@ footer .social-links a:hover {
     font-size: 20px;
   }
 
+  .btn-branding-projcts,
+  .btn-branding-about {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
   .content {
     text-align: center;
     padding-left: 60px;
@@ -393,6 +398,14 @@ footer .social-links a:hover {
   .characteristics {
     margin-top: 30px;
     padding-bottom: 20px;
+  }
+
+  .about-me-image {
+    width: 250px;
+  }
+
+  .my-projects-image {
+    width: 260px;
   }
 
   .img-line-1 {
