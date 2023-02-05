@@ -403,7 +403,7 @@ footer {
 .social-links img {
   width: 23px;
   height: 23px;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .social-links p {
@@ -432,6 +432,10 @@ footer {
   .content-2 img {
     width: 110px;
   }
+
+  /* .social-links img {
+    display: none;
+  } */
 }
 
 @media (max-width: 900px) {
@@ -549,7 +553,7 @@ footer {
     margin-bottom: 50px;
   }
 
-  .content-2 {
+  .media-info {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -557,7 +561,7 @@ footer {
 
   .content-2 h1 {
     font-size: 42px;
-    margin-left: -20px;
+    margin-left: 20px;
   }
 
   footer {
@@ -566,7 +570,7 @@ footer {
 
   footer .social-links a {
     font-size: 15px;
-    margin: 10px 20px;
+    margin: 8px 14px;
     padding: 8px 12px;
   }
 
