@@ -411,6 +411,10 @@ footer {
   font-size: 15px;
 }
 
+.coded-by-footer {
+  text-align: end;
+}
+
 .open-source-footer {
   color: #fcece0;
   font-size: 14px;
@@ -433,9 +437,9 @@ footer {
     width: 110px;
   }
 
-  /* .social-links img {
-    display: none;
-  } */
+  .btn-branding-projcts {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -466,7 +470,8 @@ footer {
   }
 
   .btn-branding-projcts,
-  .btn-branding-about {
+  .btn-branding-about,
+  .btn-leading-outline {
     padding: 10px 20px;
     font-size: 14px;
   }
@@ -557,6 +562,8 @@ footer {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-left: -60px;
+    /* changed margin left last */
   }
 
   .content-2 h1 {
@@ -576,5 +583,11 @@ footer {
 
   #second-project {
     margin-left: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .btn-branding-projcts {
+    margin-top: -10px;
   }
 }
